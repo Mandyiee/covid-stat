@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="head">
+    <div class="header" id="head1  "></div>
+    <div class="header" id="head2"></div>
+    <div class="header" id="head3"></div>
+    <div class="header" id="head4"></div>
+
+  </div>
+  <div class="headD">
+    <div class="headText"> COVID 19 </div>
+    <div class="headButt"> STATS</div>
+    <p class="current">Current</p>
+  </div>
+  <div id="global"><p>GLOBAL </p></div>
+ <div id="sidePanel">
+    <div class="panel" id="sidePanel1"><img class="icon" src="newspaper.svg" alt="" /></div>
+    <div class="panel" id="sidePanel2"><img class="icon" src="question.svg" alt="" /></div>
+    <div class="panel" id="sidePanel3"> <img class="icon" src="info.svg" alt="" />
+  </div>
+    <div class="panel" id="sidePanel4"><img class="icon" src="plus.svg" alt="" /></div>
+  </div>
+  <section class="body">
+  <div class="stat">
+    <p id="ncText" class="text">new confirmed</p>
+   <div class="container">
+      <div>  <img class="image" src="blood-test.svg" alt="" /></div>
+  <div id="nc"></div>
+    </div>
+   
+  </div>
+   <div class="stat"> 
+   <p id="tcText" class="text">total confirmed</p>
+   <div class="container">
+     <div> <img class="image" src="blood-sample.svg" alt="" id/></div>
+    <div id="tc"></div></div>
+   </div>
+   
+    <div class="stat">
+     <p id="ndText" class="text">new deaths</p>
+      <div class="container">
+     <div> <img class="image" src="poison.svg" alt="" id/></div>
+    <div id="nd"></div></div>
+    </div>
+    
+     <div class="stat">
+      <p id="tdText" class="text">total deaths</p>
+       <div class="container">
+     <div> <img class="image" src="cemetery.svg" alt="" id/></div>
+    <div id="td"></div></div>
+     </div>
+  <div class="stat">
+    <p id="nrText" class="text">new recovered</p>
+   <div class="container">
+     <div> <img class="image" src="live-music.svg" alt="" id/></div>
+    <div id="nr"></div></div></div>
+    <div class="stat">
+      <p id="trText" class="text">total recovered</p><div class="container">
+     <div> <img class="image" src="happiness.svg" alt="" id/></div>
+    <div id="tr"></div></div></div>
+     
+  </section>
+  <div class="selectGroup">
+    <p class="selectGroupText"> Select your country</p>
+    <select class="country" onchange="getEm()">
+   
+  </select></div>
+  
+
+<div class="countries">
+   <div class="stat">
+    <p id="ncText" class="text">new confirmed</p>
+   <div class="container">
+      <div>  <img class="image" src="blood-test.svg" alt="" /></div>
+  <div id="ncCountry"></div>
+    </div>
+   
+  </div>
+   <div class="stat"> 
+   <p id="tcText" class="text">total confirmed</p>
+   <div class="container">
+     <div> <img class="image" src="blood-sample.svg" alt="" id/></div>
+    <div id="tcCountry"></div></div>
+   </div>
+   
+    <div class="stat">
+     <p id="ndText" class="text">new deaths</p>
+      <div class="container">
+     <div> <img class="image" src="poison.svg" alt="" id/></div>
+    <div id="ndCountry"></div></div>
+    </div>
+    
+     <div class="stat">
+      <p id="tdText" class="text">total deaths</p>
+       <div class="container">
+     <div> <img class="image" src="cemetery.svg" alt="" id/></div>
+    <div id="tdCountry"></div></div>
+     </div>
+  <div class="stat">
+    <p id="nrText" class="text">new recovered</p>
+   <div class="container">
+     <div> <img class="image" src="live-music.svg" alt="" id/></div>
+    <div id="nrCountry"></div></div></div>
+    <div class="stat">
+      <p id="trText" class="text">total recovered</p><div class="container">
+     <div> <img class="image" src="happiness.svg" alt="" id/></div>
+    <div id="trCountry"></div></div></div>
+     
+</div>
+<div class="check">
+ <div class="group"><p class="checkText">Do I Have </p>
+  <p class="checkText" id="checkTe">CORONAVIRUS ?</p></div>
+  
+  <button class="button" id="butt">Personal Assessment</button>
+</div>
+<div id="time">
+  <p id="update"></p>
+</div>
+<footer class="end">
+				<div class="endDiv">© Okonkwo Chioma Mandy</div>
+				<div style="height:150px;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 300"><path fill="#2A0DEF" fill-opacity="1" d="M0,32L60,69.3C120,107,240,181,360,181.3C480,181,600,107,720,90.7C840,75,960,117,1080,117.3C1200,117,1320,75,1380,53.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg></div>
+</footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
